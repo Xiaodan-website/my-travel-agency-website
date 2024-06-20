@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>肖丹的旅行社 - 联系我们</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, nav, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav a {
+            margin: 0 1em;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1em;
+            background-color: white;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin: 0.5em 0;
+        }
+        .contact-form button {
+            padding: 0.5em 1em;
+            background-color: #333;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>肖丹的旅行社</h1>
+    <nav>
+        <a href="index.html">主页</a>
+        <a href="products.html">产品</a>
+        <a href="about.html">关于我们</a>
+        <a href="contact.html">联系我们</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>联系我们</h2>
+    <form class="contact-form" action="mailto:xlouane0429@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="您的姓名" required>
+        <input type="email" name="email" placeholder="您的邮箱" required>
+        <textarea name="message" placeholder="您的留言" required></textarea>
+        <button type="submit">提交</button>
+    </form>
+</div>
+
+<footer>
+    <p>© 2024 肖丹的旅行社. 保留所有权利.</p>
+</footer>
+
+</body>
+</html>
